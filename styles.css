@@ -1,0 +1,154 @@
+*{
+    font-family: 'montserrat',sans-serif; /*Atribuindo a fonte inportada no html para todo o site */
+    margin: 0; /*Zerando todo tipo de margin e padding PADRÃO dos navegadores*/
+    padding: 0;
+    box-sizing: border-box; /*Contrariando o crecimento PADRÃO */
+}
+
+header{
+    margin: 44px 0px 144px 76px; /*Definindo as margens da caixa header*/
+    display: inline-block;
+}
+
+.link-header{
+    color: #989D9C; /*Definindo a cor dos links*/
+    font-size: 24px; /*Especificando o tamanho da fonte*/
+    font-weight: 600; /*Definindo largura das fontes do links*/
+    margin-right: 23px; /*Definindo uma margem a direita de todos os links do header*/
+    line-height: 24px; /*Altura da linha*/
+    cursor: pointer; /*Pra ficar uma mãozinha no cursor do mouse 
+                      quando estiver em cima dos links*/
+}
+
+.button-header{   
+   
+   
+    width: 130px; /*Definindo largura do botão*/
+    height: 41px; /*Definindo altura do botão*/
+    background-color: #665AE1; /*Definindo cor de fundo do botão*/
+    font-weight: 600; /*Espessura da fonte do botão*/
+    color: white; /*Cor da fonte do botão*/
+    border-radius: 20.5px; /*defindo borda circular em px*/
+    border: none; /*Tirando a borda padão*/
+    cursor: pointer; /*Cursor vai virar uma mãozinha ao passar o mouse no botão */
+}
+
+
+.img-logo{
+    width: 568px;
+    height: 694px;
+    margin-left: 125px;
+    display: inline-block; /*Permitindo que a imagem aceite mais elementos na mesma linha e que seus tamnhos possam ser alterados*/
+}
+
+section{
+   display:inline-block; /*Definindo que todo os elementos dentro da saction*/
+   margin-left: 86px;    /*sejam na mesma linha mas que a TAMANHO E LARGURA POSSAM SER ALTERADOS*/
+   /*MARGIN-left: dando uma afastada da imagem a esquerda de 65px*/
+   
+}
+
+h1{
+    font-size: 100px;
+    font-weight: 900; /*Espessura da fonte*/
+    color: #515151;
+}
+
+h2{
+    font-size: 58px; /*Tamanho da fonte*/
+    font-weight: 500;
+    color: #515151; /*cor da fonte*/
+    margin-bottom: 36px;
+}
+
+p{
+    color: #848484;
+    font-size: 24px;
+    font-weight: 400;
+    width: 515px;
+    text-align: justify; /*Justificando o texto */
+
+
+    
+}
+
+.button-section{
+    width: 239px;
+    height: 64px;
+    border-radius: 20.5px; /*Arredondando bordas em px*/
+    border: none; /*Tirando as bordas padrão*/
+    background: #ADFF00;
+    color: #000;
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 65px;
+    cursor: pointer; /*Quando o usuário passar o mouse por cima do */
+                       /* botão o curso vai virar uma mãozinha*/
+    filter:drop-shadow(0px 4px 4px rgb( 0,  0, 0, 0, 25)); /*Colocando um sombriamento*/
+}
+
+@media screen and (max-width: 1323px ){
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    header{
+        display: none;
+    }
+
+   
+
+    section{
+        position: relative;
+        display: block;
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .img-logo{
+        position: relative;
+        max-width: 90%;
+        margin: auto;
+        align-items: center;
+        height:auto;
+    }
+
+    h1{
+        width: 100%;
+        height: 52px;
+        font-size: 50px;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 30px;
+        font-weight: 500;
+        margin-bottom: 0px;
+       text-align: center;
+    }
+
+    p{
+        display: none;
+    }
+
+    .button-section{
+        display: block;
+        width: 239px;
+        height: 64px;
+        margin: auto;
+        margin-top: 25px;
+        
+    }
+
+}
+
+
+
+
+
+
